@@ -1,0 +1,225 @@
+.about-simple-footer,
+.about-simple-footer * {
+  box-sizing: border-box;
+}
+.about-simple-footer {
+  background: var(--bg-gray, #f9faff);
+  height: 944px;
+  position: relative;
+  overflow: hidden;
+}
+.about-me {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 588px;
+  position: absolute;
+  left: 120px;
+  top: 199px;
+}
+.title {
+  color: var(--font-high-emphasis, #25282b);
+  text-align: left;
+  font-family: var(--title-h2-font-family, "PlayfairDisplay-Bold", sans-serif);
+  font-size: var(--title-h2-font-size, 48px);
+  line-height: var(--title-h2-line-height, 72px);
+  font-weight: var(--title-h2-font-weight, 700);
+  position: relative;
+  align-self: stretch;
+}
+.text {
+  color: var(--font-medium-emphasis, #828282);
+  text-align: left;
+  font-family: "Nunito-Regular", sans-serif;
+  font-size: 24px;
+  line-height: 150%;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+}
+.button-primary {
+  background: var(--bg-white, #f9d2e4);
+  border-radius: 8px;
+  padding: 8px 24px 8px 24px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.button-primary a{
+    text-decoration: none; 
+  color: inherit; 
+  display: inline-block;
+}
+.text2 {
+  color: var(--font-high-emphasis, #25282b);
+  text-align: left;
+  font-family: "Roboto-Medium", sans-serif;
+  font-size: 18px;
+  line-height: 150%;
+  font-weight: 500;
+  position: relative;
+}
+.bg-2 {
+  position: absolute;
+  inset: 0;
+}
+.ellipse-1 {
+  background: var(--brand-yellow, #fdc435);
+  border-radius: 50%;
+  width: 524px;
+  height: 524px;
+  position: absolute;
+  right: 120px;
+  top: 94px;
+}
+.pexels-artem-beliaikin-1832323-removebg-preview {
+  border-radius: 600px;
+  width: 524px;
+  height: 524px;
+  position: absolute;
+  right: 120px;
+  top: 94px;
+  object-fit: cover;
+}
+.header {
+  padding: 12px 120px 12px 120px;
+  height: 56px;
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  top: 0px;
+}
+.sania-debbarma {
+  color: var(--font-high-emphasis, #25282b);
+  text-align: left;
+  font-family: "Comfortaa-Bold", sans-serif;
+  font-size: 18px;
+  line-height: 180%;
+  font-weight: 700;
+  position: absolute;
+  left: 120px;
+  top: 12px;
+}
+.nav {
+  display: flex;
+  flex-direction: row;
+  gap: 48px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  right: 120px;
+  top: 14px;
+}
+.tab-active {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.sobre {
+  color: var(--font-high-emphasis, #25282b);
+  text-align: left;
+  font-family: var(--body-18px-font-family, "Raleway-Medium", sans-serif);
+  font-size: var(--body-18px-font-size, 18px);
+  line-height: var(--body-18px-line-height, 28px);
+  font-weight: var(--body-18px-font-weight, 500);
+  position: relative;
+}
+.rectangle-11 {
+  background: var(--bg-line, #25282b);
+  border-radius: 2px;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 2px;
+  position: relative;
+}
+.tab-default {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.footer-icons {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 762px;
+}
+.icons {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.ph-instagram-logo-fill {
+  flex-shrink: 0;
+  width: 48px;
+  height: 48px;
+  position: relative;
+  overflow: visible;
+}
+.bi-linkedin {
+  flex-shrink: 0;
+  width: 48px;
+  height: 48px;
+  position: relative;
+  overflow: hidden;
+}
+.group {
+  width: 79.17%;
+  height: 79.17%;
+  position: absolute;
+  right: 10.42%;
+  left: 10.42%;
+  bottom: 10.42%;
+  top: 10.42%;
+  overflow: visible;
+}
+.bi-envelope-fill {
+  flex-shrink: 0;
+  width: 48px;
+  height: 48px;
+  position: relative;
+  overflow: hidden;
+  margin-left: -35px; 
+}
+ 
+
+.group2 {
+  width: 87.5%;
+  height: 66.67%;
+  position: absolute;
+  right: 6.25%;
+  left: 6.25%;
+  bottom: 16.67%;
+  top: 16.67%;
+  overflow: visible;
+}
+.let-s-connect {
+  color: var(--font-medium-emphasis, #828282);
+  text-align: left;
+  font-family: "Nunito-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+}
